@@ -8,16 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/icon-2.svg').default,
     description: (
       <>
-        Use our ChatGPT-style GUI interface with the pre-installed models, or download models from Meta, X, Huggingface, Ollama, and others
-      </>
-    ),
-  },
-  {
-    title: 'Private conversations with local AI',
-    Svg: require('@site/static/img/icon-2.svg').default,
-    description: (
-      <>
-        Converse with your personal AI assistants with ultra-low latency. Your personal data stays private because it never leaves your COGNITION computer
+        Use our ChatGPT-inspired GUI with the pre-installed models, or download models from Meta, X, Huggingface, Ollama, and others
       </>
     ),
   },
@@ -30,6 +21,16 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: 'Private conversations with local AI',
+    Svg: require('@site/static/img/icon-2.svg').default,
+    description: (
+      <>
+        Converse with your personal AI assistants with ultra-low latency. Your personal data stays private because it never leaves your COGNITION computer
+      </>
+    ),
+  },
+  
 ];
 
 function Feature({Svg, title, description}) {

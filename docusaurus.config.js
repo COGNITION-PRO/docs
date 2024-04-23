@@ -96,6 +96,18 @@ const config = {
                 label: 'Quick Start Guide',
                 to: '/docs/welcome',
               },
+              {
+                label: 'Fine-tuning',
+                to: '/docs/fine-tuning',
+              },
+              {
+                label: 'Hardware Details',
+                to: '/docs/hardware-details',
+              },
+              {
+                label: 'Benchmarks',
+                to: '/docs/Benchmarks',
+              },
             ],
           },
           {
@@ -126,6 +138,7 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
+              
               // {
               //   label: 'GitHub',
               //   href: 'https://github.com/facebook/docusaurus',
@@ -149,7 +162,7 @@ const config = {
       },
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: false,
+        disableSwitch: true,
         respectPrefersColorScheme: false,
       },
     }),
