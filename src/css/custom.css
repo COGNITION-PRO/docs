@@ -29,13 +29,13 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* background: repeating-linear-gradient {
-  45deg,
-  #606dbc,
-  #606dbc 10px,
-  #465298 10px,
-  #465298 20px
-} */
+.heroText {
+  font-family: Ubuntu;
+  font-weight: 200;
+  color: black;
+  padding: 4rem 0;
+  text-align: center;
+}
 
 .announcementBg {
   background: repeating-linear-gradient,
@@ -45,3 +45,4 @@
   #e79427 10px,
   #e79427 20px
 }
+
