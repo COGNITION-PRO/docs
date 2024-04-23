@@ -64,23 +64,23 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/cognition-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'COGNITION Docs',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'COGNITION',
+          src: 'img/icon-2.svg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Quick Start Guide',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/cognition-pro/docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -93,25 +93,29 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Quick Start Guide',
+                to: '/docs/welcome',
               },
             ],
           },
           {
             title: 'Community',
             items: [
+              // {
+              //   label: 'Discord',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              // },
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Farcaster',
+                href: 'https://warpcast.com/~/channel/cognition',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Telegram',
+                href: 'https://t.me/cognition_pro',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/@cognition_pro',
               },
             ],
           },
@@ -122,18 +126,26 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+              // {
+              //   label: 'GitHub',
+              //   href: 'https://github.com/facebook/docusaurus',
+              // },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Made with by 💙 COGNITION`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      announcementBar: {
+        id: 'under-construction',
+        content:
+          '🚧 Our docs are currently under construction - we plan to push an update by the end of May 2024 🚧',
+        backgroundColor: '#C17673',
+        textColor: '#000000',
+        isCloseable: false,
       },
     }),
 };

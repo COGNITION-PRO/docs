@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Easy to use ChatGPT-inspired GUI',
+    Svg: require('@site/static/img/icon-2.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Use our ChatGPT-style GUI interface with the pre-installed models, or download models from Meta, X, Huggingface, Ollama, and others
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Private conversations with local AI',
+    Svg: require('@site/static/img/icon-2.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Converse with your personal AI assistants with ultra-low latency. Your personal data stays private because it never leaves your COGNITION computer
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Train or Fine-Tune Any Model',
+    Svg: require('@site/static/img/icon-2.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Train models from scratch or download any open-source model and fine-tune it for your specific application
       </>
     ),
   },
