@@ -102,8 +102,8 @@ const config = {
                 to: '/docs/welcome',
               },
               {
-                label: 'Fine-tuning',
-                to: '/docs/fine-tuning',
+                label: 'Training',
+                to: '/docs/training',
               },
               {
                 label: 'Hardware Details',
@@ -160,8 +160,8 @@ const config = {
       announcementBar: {
         id: 'under-construction',
         content:
-          '🚧 Our docs are currently under construction - we plan to push an update by the end of May 2024 🚧',
-        backgroundColor: '#C17673',
+          '🚧 Our docs are currently under construction - we plan to push a comprehensive update by the end of May 2024 🚧',
+        backgroundColor: '#FFCA64',
         textColor: '#000000',
         isCloseable: false,
       },

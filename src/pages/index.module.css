@@ -21,3 +21,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.heroText {
+  font-family: Ubuntu;
+  font-weight: 300;
+  font-size: 40rem;
+  padding: 4rem 0;
+  text-align: center;
+}

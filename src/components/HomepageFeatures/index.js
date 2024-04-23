@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/icon-2.svg').default,
     description: (
       <>
-        Train models from scratch or download any open-source model and fine-tune it for your specific application
+        Download any open-source model and fine-tune it for your specific application or pre-train and tune models from scratch using custom datasets
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/icon-2.svg').default,
     description: (
       <>
-        Converse with your personal AI assistants with ultra-low latency. Your personal data stays private because it never leaves your COGNITION computer
+        Have ultra-low latency and private conversations your personal AI assistants. Your personal data never leaves your COGNITION computer
       </>
     ),
   },
