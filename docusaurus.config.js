@@ -64,6 +64,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       image: 'img/cognition-social-card.jpg',
       navbar: {
         title: 'COGNITION Docs',
@@ -106,7 +111,7 @@ const config = {
               },
               {
                 label: 'Benchmarks',
-                to: '/docs/Benchmarks',
+                to: '/docs/benchmarks',
               },
             ],
           },
@@ -159,11 +164,6 @@ const config = {
         backgroundColor: '#C17673',
         textColor: '#000000',
         isCloseable: false,
-      },
-      colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: true,
-        respectPrefersColorScheme: false,
       },
     }),
 };
