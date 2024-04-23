@@ -147,6 +147,11 @@ const config = {
         textColor: '#000000',
         isCloseable: false,
       },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
     }),
 };
 
